@@ -1,0 +1,332 @@
+
+
+
+.main-container {
+    width: 1200px;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px;
+    display: block;
+    background-color: #1E201E;
+    display: block;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(236, 223, 204, 1);
+}
+
+header {
+    background-color: rgba(60, 61, 55, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 110px;
+    border-color: #ECDFCC;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+nav {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.home-button,
+.about-button {
+
+    background-color: rgba(105, 117, 101, 1);
+    color: rgba(236, 223, 204, 1);
+    padding: 6px;
+    font-size: 18px;
+    width: 150px;
+    height: 54.8px;
+           border-radius: 8px;
+    border-style: inset;
+    border-width: 2px;
+    border-color: rgba(236, 223, 204, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+}
+
+
+.home-button,
+.about-button:hover {
+
+    background-color: red;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.aboutme-text {
+    font-size: 39px;
+}
+
+.about-p {
+    font-size: 20px;
+    width: 600px;
+    position: relative;
+    left: 300px;
+}
+.project-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}   
+
+.project-text {
+    text-align: center;
+    font-size: 29px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-pic {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+img {
+    width: 450px;
+    height: 361px;
+}
+
+
+.text-description {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 40px;
+
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+
+}
+
+.skill-text {
+    text-align: center;
+    font-size: 29px;
+}
+
+.main-skill {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+
+.left-skill {
+    width: 600px;
+    font-size: 20px;
+}
+
+.right-skill {
+    font-size: 20px;
+    width: 600px;
+}
+
+.achievement-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 230px;
+}
+
+.achievement-text {
+    text-align: center;
+    font-size: 29px;
+}
+
+.li-achievement {
+    font-size: 20px;
+    width: 800px;
+    position: relative;
+    left: 250px;
+}
+
+
+
+@media  screen and (max-width: 500px) {
+
+    .main-container {
+        width: 500px;    
+        
+    }
+
+    header {
+        height: 90px;
+    }
+
+    .home-button,
+    .about-button {
+        width: 110px;
+        height: 30px;
+        font-size: 14px;
+        padding: 3px;
+        top: 10px;
+        right: 130px;
+    }
+
+    main {
+        display: flex;
+    }
+
+
+  
+
+    .aboutme-text {
+        font-size: 29px;
+        position: relative;
+        right: 40px;
+    }
+
+    .about-p {
+        font-size: 12px;
+        width: 300px;
+        left: 70px;
+    }
+
+    .project-section {
+        top: 60px;
+
+    }
+
+    .project-text {
+        font-size: 29px;
+        position: relative;
+        right: 35px;
+    }
+
+
+
+    .link-pic {
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+    img {
+        width: 235px;
+        height: 196px;
+    }
+
+    #TE {
+        position: relative;
+        left: 100px;
+        margin-bottom: 120px;
+    
+    } 
+
+    #BS {
+        position: relative;
+        left: 100px;
+        margin-bottom: 120px;
+    
+    }
+
+    .text-description {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top: 300px;
+       
+    }
+
+    .texteditor-text {
+        margin-bottom: 270px;
+    }
+
+    .skill-section {
+        top: 100px;
+        right: 50px;
+
+    }
+
+    .skill-text {
+        font-size: 26;
+    }
+
+    .main-skill {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 110px;
+       
+    }
+
+    .left-skill,
+    .right-skill {
+        font-size: 14px;
+        width: 300px;
+    }
+
+
+    .achievement-section {
+        font-size: 26px;
+        top: 165px;
+
+    }
+
+    .achievement-text {
+        position: relative;
+        right: 30px;
+    }
+
+    .li-achievement {
+        font-size: 14px;
+        width: 300px;
+        position: relative;
+        left: 90px;
+    }
+
+
+
+}
+    
